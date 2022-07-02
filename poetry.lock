@@ -1226,7 +1226,6 @@ spacy-legacy = ">=3.0.9,<3.1.0"
 spacy-loggers = ">=1.0.0,<2.0.0"
 srsly = ">=2.4.3,<3.0.0"
 thinc = ">=8.0.14,<8.1.0"
-thinc-apple-ops = {version = ">=0.0.4,<1.0.0", optional = true, markers = "extra == \"apple\""}
 tqdm = ">=4.38.0,<5.0.0"
 typer = ">=0.3.0,<0.5.0"
 wasabi = ">=0.9.1,<1.1.0"
@@ -1389,18 +1388,6 @@ datasets = ["ml-datasets (>=0.2.0,<0.3.0)"]
 mxnet = ["mxnet (>=1.5.1,<1.6.0)"]
 tensorflow = ["tensorflow (>=2.0.0,<2.6.0)"]
 torch = ["torch (>=1.6.0)"]
-
-[[package]]
-name = "thinc-apple-ops"
-version = "0.0.7"
-description = "Improve Thinc's performance on Apple devices with native libraries"
-category = "main"
-optional = false
-python-versions = ">=3.6"
-
-[package.dependencies]
-numpy = ">=1.21.0"
-thinc = ">=8.0.13,<8.1.0"
 
 [[package]]
 name = "tinycss2"
@@ -1614,7 +1601,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "0dd94cc0ef9ab24eb42fd274ce17b847ff28d1fe2cc5886cd65574df1e652433"
+content-hash = "2bf2460feb126312af83014943e8ddd58f62db066d0b5ba3e294a8fa03078806"
 
 [metadata.files]
 altair = [
@@ -2599,16 +2586,6 @@ thinc = [
     {file = "thinc-8.0.17-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:4737feae51aef428f2b7be03cabc28d4e4116968ec1419cf0508c460ee8a059d"},
     {file = "thinc-8.0.17-cp39-cp39-win_amd64.whl", hash = "sha256:eba973fe229e7fa86b99f2c5e2724f7f19040ac75a8ef7c8b23b434dac1eadea"},
     {file = "thinc-8.0.17.tar.gz", hash = "sha256:042c518aa799a38bec22a7a0bf28df80ce617eb7de32bc049798707c0a36167f"},
-]
-thinc-apple-ops = [
-    {file = "thinc_apple_ops-0.0.7-cp310-cp310-macosx_10_9_x86_64.whl", hash = "sha256:8c07cdd12f7e358b2d163b60b9292d45751201eaa75d7ed1899c46e95ee596b3"},
-    {file = "thinc_apple_ops-0.0.7-cp310-cp310-macosx_11_0_arm64.whl", hash = "sha256:4b1b4bd2397a58c555cac1718a4daed205f647cf66ccbe748263e4526de8c52d"},
-    {file = "thinc_apple_ops-0.0.7-cp37-cp37m-macosx_10_9_x86_64.whl", hash = "sha256:8aaa5e93a038217d34c5b5b19ce42618c642da5efdf33b11ee7150ae87624ee7"},
-    {file = "thinc_apple_ops-0.0.7-cp38-cp38-macosx_10_9_x86_64.whl", hash = "sha256:c8191153d62b5ff161d5beaed34a4e09b3264769ab4201e3cb9c2d6f63147ba8"},
-    {file = "thinc_apple_ops-0.0.7-cp38-cp38-macosx_11_0_arm64.whl", hash = "sha256:0b2e3f03da128f8f9a2341069ecaea888367a26c32d2c637c67202c9017093ab"},
-    {file = "thinc_apple_ops-0.0.7-cp39-cp39-macosx_10_9_x86_64.whl", hash = "sha256:a7f1feca96fa90f65c492e847ff5150e0416234cd4040d90c27f59d01c987fba"},
-    {file = "thinc_apple_ops-0.0.7-cp39-cp39-macosx_11_0_arm64.whl", hash = "sha256:9bbfffb53064cba7b8920b2e5bcd8eb45e5578d9bef8585a4f5f760b287ffa4d"},
-    {file = "thinc_apple_ops-0.0.7.tar.gz", hash = "sha256:040133d12edeaf3a3fac237304664f17e0cd2fb96eea25fa6fb064947d400b91"},
 ]
 tinycss2 = [
     {file = "tinycss2-1.1.1-py3-none-any.whl", hash = "sha256:fe794ceaadfe3cf3e686b22155d0da5780dd0e273471a51846d0a02bc204fec8"},
